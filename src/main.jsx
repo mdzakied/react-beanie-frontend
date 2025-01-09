@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
+import "./index.scss";
 
 // PrimeReact
 import { PrimeReactProvider } from "primereact/api";
@@ -24,17 +24,17 @@ import Footer from "./shared/components/Footer";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <PrimeReactProvider>
-      <div className="border-2 m-3">
+      <div className="m-3">
         {/* Navbar */}
-        <div className="card flex justify-content-center">
+        <header id="navbar" className="card flex justify-content-start">
           <Navbar />
-        </div>
+        </header>
         {/* Page Content */}
         <RouterProvider router={Router} />
         {/* Footer */}
-        <div className="card flex justify-content-center">
+        <footer id="footer" className="card flex justify-content-start">
           <Footer />
-        </div>
+        </footer>
       </div>
     </PrimeReactProvider>
   </StrictMode>
