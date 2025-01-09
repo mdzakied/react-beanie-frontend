@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="card flex flex-column justify-content-center">
       {/* Hero */}
-      <div className="card flex justify-content-center">
+      <div id="hero" className="card flex justify-content-center">
         <Hero />
       </div>
       {/* Description */}
