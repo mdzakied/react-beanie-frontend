@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import Error404 from "../shared/pages/Error404";
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home";
+import Shop from "../pages/Shop/Shop";
 
 const Router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const Router = createBrowserRouter([
   {
     path: "home",
     element: <Home />,
+  },
+  {
+    path: "shop",
+    element: <Shop />,
   },
 ]);
 
