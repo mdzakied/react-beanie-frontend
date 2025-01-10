@@ -10,8 +10,8 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="col border-round p-0" style={{ backgroundColor: "#e4e3e1" }}>
         <div className="flex flex-column justify-content-center align-items-center h-full">
-          <h1 className="mb-0 text-yellow-900">
-            SPECIAL <span className="text-yellow-600">COFFEE</span>
+          <h1 className="mb-0 color-tertiary">
+            SPECIAL <span className="color-secondary">COFFEE</span>
           </h1>
           <p className="text-center px-6 font-italic">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quas

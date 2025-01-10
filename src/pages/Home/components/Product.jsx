@@ -1,6 +1,6 @@
 export default function Product() {
   return (
-    <div className="lex justify-content-center my-4">
+    <div className="my-4">
       {/* Card Product 1 */}
       <div className="grid">
         {/* Card Product */}
