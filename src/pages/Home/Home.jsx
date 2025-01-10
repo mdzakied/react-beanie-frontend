@@ -66,7 +66,7 @@ export default function Home() {
         <Blog />
       </div>
       {/* Instagram View */}
-      <div id="instagram-view" className="card flex justify-content-center">
+      <div id="instagram-view">
         <InstagramView />
       </div>
     </div>

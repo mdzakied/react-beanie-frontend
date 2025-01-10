@@ -4,7 +4,7 @@ export default function InstagramView() {
       <h3 className="text-center font-primary color-tertiary">
         FOLLOW OUR INSTAGRAM #BEANIE
       </h3>
-      <div className="flex justify-content-center w-100 grid">
+      <div className="flex justify-content-between grid mt-4">
         <div className="col p-0">
           <img
             src="https://images.unsplash.com/photo-1549685571-ac77ccac479e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENPRkVFfGVufDB8fDB8fHww"
