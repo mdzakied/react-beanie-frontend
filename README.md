@@ -7,7 +7,7 @@
 **Beanie** is a promotional website designed to showcase and promote a variety of products. The site includes multiple pages that help present products, making it easy for users to explore:
 
 - **Home Page 🏠**: Overview of the business and key highlights.
-- **Error Page 📖**: Information about the not found page.
+- **Error Page 🚧**: Information about the not found page.
 - **Backend Interaction 🔄:** Communicates with the backend via RESTful API to handle data management.
 
 ---
