@@ -20,7 +20,7 @@ export default function Hero() {
             laboriosam. Autem?
           </p>
           <Button
-            className="btn-hero-custom mt-2 text-yellow-900 font-primary text-sm"
+            className="btn-hero-custom mt-2 text-yellow-900 font-primary text-sm hover:bg-yellow-900 hover:text-white"
             label="ORDER NOW"
             rounded
             outlined

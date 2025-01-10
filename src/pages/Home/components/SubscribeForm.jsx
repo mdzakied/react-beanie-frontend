@@ -16,7 +16,7 @@ export default function SubscribeForm() {
           className="input-subs-custom mx-auto"
         />
         <Button
-          className="btn-subs-custom color-tertiary font-primary text-sm border-2"
+          className="btn-subs-custom color-tertiary font-primary text-sm border-2 hover:bg-yellow-900 hover:text-white hover:border-yellow-900"
           label="ORDER NOW"
           rounded
           outlined

@@ -23,7 +23,7 @@ export default function Product() {
               </p>
               <a
                 href="/shop-category"
-                className="font-primary text-xs text-center color-tertiary font-bold"
+                className="font-primary text-xs text-center color-tertiary font-bold hover:text-yellow-600"
               >
                 SHOP CATEGORY
               </a>
@@ -51,7 +51,7 @@ export default function Product() {
               </p>
               <a
                 href="/shop-category"
-                className="font-primary text-xs text-center color-tertiary font-bold"
+                className="font-primary text-xs text-center color-tertiary font-bold hover:text-yellow-600"
               >
                 SHOP CATEGORY
               </a>
@@ -74,7 +74,7 @@ export default function Product() {
               </p>
               <a
                 href="/shop-category"
-                className="font-primary text-xs text-center color-tertiary font-bold"
+                className="font-primary text-xs text-center color-tertiary font-bold hover:text-yellow-600"
               >
                 SHOP CATEGORY
               </a>
@@ -103,7 +103,7 @@ export default function Product() {
               </p>
               <a
                 href="/shop-category"
-                className="font-primary text-xs text-center color-tertiary font-bold"
+                className="font-primary text-xs text-center color-tertiary font-bold hover:text-yellow-600"
               >
                 SHOP CATEGORY
               </a>
