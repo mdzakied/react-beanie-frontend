@@ -78,6 +78,7 @@ export default function Footer() {
                     display: "inline-block",
                     pointerEvents: item.disabled ? "none" : "auto",
                   }}
+                  className="hover:text-yellow-600 cursor-pointer"
                 >
                   {item.label}
                 </a>
@@ -99,6 +100,7 @@ export default function Footer() {
                     display: "inline-block",
                     pointerEvents: item.disabled ? "none" : "auto",
                   }}
+                  className="hover:text-yellow-600 cursor-pointer"
                 >
                   {item.label}
                 </a>
@@ -120,6 +122,7 @@ export default function Footer() {
                     display: "inline-block",
                     pointerEvents: item.disabled ? "none" : "auto",
                   }}
+                  className="hover:text-yellow-600 cursor-pointer"
                 >
                   {item.label}
                 </a>
@@ -141,6 +144,7 @@ export default function Footer() {
                     display: "inline-block",
                     pointerEvents: item.disabled ? "none" : "auto",
                   }}
+                  className="hover:text-yellow-600 cursor-pointer"
                 >
                   {item.label}
                 </a>
