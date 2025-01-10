@@ -187,7 +187,8 @@ export default function BestCofee() {
                   className="border-round"
                 />
                 <h3 className="text-left font-primary color-tertiary mb-0 ml-1">
-                  {bean.title}
+                  {bean.title} - {bean.total_likes}{" "}
+                  <i className="pi pi-star color-tertiary"></i>
                 </h3>
                 <h4 className="text-left font-primary color-secondary m-0 mt-2 ml-1">
                   ${bean.price}
