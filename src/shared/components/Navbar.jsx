@@ -30,7 +30,7 @@ export default function Navbar() {
   const logo = (
     <img
       src="https://static.vecteezy.com/system/resources/previews/024/035/220/non_2x/circle-coffee-bean-logo-on-transparent-background-free-png.png"
-      alt="Logo"
+      alt="logo-img"
       className="hidden lg:block logo-navbar"
       height={100}
     />

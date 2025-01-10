@@ -61,7 +61,7 @@ export default function Footer() {
   ];
 
   return (
-    <div className="w-screen mt-4">
+    <div className="w-screen mt-4 font-primary">
       {/* Menu */}
       <div className="grid">
         {/* Menu 1 */}

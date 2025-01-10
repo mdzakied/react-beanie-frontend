@@ -1,8 +1,39 @@
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+// Custom Variables for fonts
+$primary-font: 'Marcellus', serif;
+$secondary-font: 'open sans', sans-serif;
+
+// Use fonts
+.font-primary {
+    font-family: $primary-font;
+    letter-spacing: 0.2rem;
+}
+
+.font-secondary {
+    font-family: $secondary-font;
+}
+
+// Custom Variables for colors
 $primary-color: #f8f8f1;
 $secondary-color: #d2b599;
+$tertiary-color: #2a1c02;
 
 body {
     background-color: $primary-color;
+
+    h1 {
+        font-family: $primary-font;
+        letter-spacing: 0.2rem;
+    }
+
+    p {
+        font-family: $secondary-font;
+        color: $tertiary-color;
+        line-height: 1.5rem;
+        justify-content: center;
+    }
 }
 
 .navbar-custom {
@@ -42,6 +73,6 @@ body {
     .icon-input-navbar-custom {
         position: absolute;
         font-size: small;
-        
+
     }
 }

@@ -11,14 +11,14 @@ export default function Hero() {
           <h1 className="mb-0 text-yellow-900">
             SPECIAL <span className="text-yellow-600">COFFEE</span>
           </h1>
-          <p className="text-center px-6">
+          <p className="text-center px-6 font-italic">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quas
             alias quam eveniet officiis similique odit quos, inventore sunt ab
             aspernatur omnis dolorem commodi molestias, doloribus rerum optio
             laboriosam. Autem?
           </p>
           <Button
-            className="btn-hero-custom mt-2 text-yellow-900"
+            className="btn-hero-custom mt-2 text-yellow-900 font-primary text-sm"
             label="ORDER NOW"
             rounded
             outlined
