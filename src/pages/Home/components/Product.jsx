@@ -16,7 +16,7 @@ export default function Product() {
           {/* card Content */}
           <div className="col flex ustify-content-center align-items-center">
             <div className="flex flex-column shadow-4 justify-content-center align-items-center h-full">
-              <h1 className="text-yellow-900 text-sm">INSTANT COFFEES</h1>
+              <h1 className="color-tertiary text-sm">INSTANT COFFEES</h1>
               <p className="text-center text-sm mt-0 px-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
                 obcaecati.
@@ -44,7 +44,7 @@ export default function Product() {
           {/* card Content */}
           <div className="col flex ustify-content-center align-items-center">
             <div className="flex flex-column shadow-4 justify-content-center align-items-center h-full">
-              <h1 className="text-yellow-900 text-sm">COFFEE MAKERS</h1>
+              <h1 className="color-tertiary text-sm">COFFEE MAKERS</h1>
               <p className="text-center text-sm mt-0 px-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
                 obcaecati.
@@ -67,7 +67,7 @@ export default function Product() {
           {/* card Content */}
           <div className="col flex ustify-content-center align-items-center">
             <div className="flex flex-column shadow-4 justify-content-center align-items-center h-full">
-              <h1 className="text-yellow-900 text-sm">COFEE ACESSORIES</h1>
+              <h1 className="color-tertiary text-sm">COFEE ACESSORIES</h1>
               <p className="text-center text-sm mt-0 px-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
                 obcaecati.
@@ -96,7 +96,7 @@ export default function Product() {
           {/* card Content */}
           <div className="col flex ustify-content-center align-items-center">
             <div className="flex flex-column shadow-4 justify-content-center align-items-center h-full">
-              <h1 className="text-yellow-900 text-sm">COFFEE GIFT SETS</h1>
+              <h1 className="color-tertiary text-sm">COFFEE GIFT SETS</h1>
               <p className="text-center text-sm mt-0 px-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
                 obcaecati.
