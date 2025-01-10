@@ -22,11 +22,11 @@ export default function Home() {
         <Description />
       </div>
       {/* Best Cofee */}
-      <div id="best-cofee" className="card flex justify-content-center">
+      <div id="best-cofee">
         <BestCofee />
       </div>
       {/* Comment*/}
-      <div id="comment" className="card flex justify-content-center">
+      <div id="comment">
         <Comment />
       </div>
       {/* Product */}
@@ -62,7 +62,7 @@ export default function Home() {
         <ShopFeature />
       </div>
       {/* Blog */}
-      <div id="blog" className="card flex justify-content-center">
+      <div id="blog">
         <Blog />
       </div>
       {/* Instagram View */}
