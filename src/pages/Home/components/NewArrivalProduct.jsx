@@ -136,7 +136,7 @@ export default function NewArrivalProduct() {
       {/* Data View */}
       {!isLoading && (
         <>
-          <div className="my-2">
+          <div className="my-2 shadow-4 p-3">
             {data.data.data?.map((bean) => (
               // Card Product
               <div

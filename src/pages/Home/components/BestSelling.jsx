@@ -137,7 +137,7 @@ export default function BestSelling() {
       {/* Data View */}
       {!isLoading && (
         <>
-          <div className="my-2">
+          <div className="my-2 shadow-4 p-3">
             {data.data.data?.map((bean) => (
               // Card Product
               <div key={bean.id} className="flex justify-content-start pl-0 p-3">
