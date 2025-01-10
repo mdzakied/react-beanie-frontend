@@ -20,6 +20,19 @@ $primary-color: #f8f8f1;
 $secondary-color: #d2b599;
 $tertiary-color: #2a1c02;
 
+// Use colors
+.color-primary {
+    color: $primary-color;
+}
+
+.color-secondary {
+    color: $secondary-color;    
+}
+
+.color-tertiary {
+    color: $tertiary-color;
+}
+
 body {
     background-color: $primary-color;
 
