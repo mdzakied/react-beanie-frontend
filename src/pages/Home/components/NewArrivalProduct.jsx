@@ -42,7 +42,7 @@ export default function NewArrivalProduct() {
   });
 
   return (
-    <div className="mt-8">
+    <div className="mt-4">
       {/* Best Cofee Header */}
       <div className="flex justify-content-start align-items-center">
         <h1 className="color-tertiary">NEW ARRIVALS</h1>
