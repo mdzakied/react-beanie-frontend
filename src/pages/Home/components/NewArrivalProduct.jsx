@@ -4,13 +4,13 @@ import BeanService from "../../../services/BeanService";
 import { Avatar } from "primereact/avatar";
 import { Skeleton } from "primereact/skeleton";
 
-export default function BestSelling() {
+export default function NewArrivalProduct() {
   // Use state for query params
   const [searchParams] = useState({
     title: "",
     page: 1,
     size: 5,
-    sort: "total_sales", // for best selling
+    sort: "arived_at", // for newest
     direction: "desc",
   });
 
@@ -45,13 +45,12 @@ export default function BestSelling() {
     <div className="mt-8">
       {/* Best Cofee Header */}
       <div className="flex justify-content-start align-items-center">
-        <h1 className="color-tertiary">BEST SELLING</h1>
+        <h1 className="color-tertiary">NEW ARRIVALS</h1>
       </div>
 
       {/* Loading View */}
       {isLoading && (
         <div className="my-2">
-
           {/* Card Product */}
           <div className="flex justify-content-start pl-0 p-3">
             <div className="flex align-items-center w-full">
@@ -140,9 +139,11 @@ export default function BestSelling() {
           <div className="my-2">
             {data.data.data?.map((bean) => (
               // Card Product
-              <div key={bean.id} className="flex justify-content-start pl-0 p-3">
+              <div
+                key={bean.id}
+                className="flex justify-content-start pl-0 p-3"
+              >
                 <div className="flex align-items-center w-full">
-
                   {/* Avatar */}
                   <div className="flex align-items-center">
                     <Avatar label="B" size="xlarge" shape="circle" />
@@ -152,7 +153,7 @@ export default function BestSelling() {
                   <div className="flex flex-column ml-3">
                     <h3 className="color-tertiary text-sm font-primary m-0">
                       {bean.title} - {bean.total_sales}{" "}
-                      <i className="pi pi-cart-arrow-down color-tertiary text-sm"></i>
+                      <i className="pi pi-box color-tertiary text-sm"></i>
                     </h3>
                     <p className="text-xs font-primary m-0 mr-4">
                       {bean.subtitle}

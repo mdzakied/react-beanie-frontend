@@ -3,7 +3,7 @@ import Description from "./components/Description";
 import BestCofee from "./components/BestCofee";
 import Comment from "./components/Comment";
 import Product from "./components/Product";
-import NewArivalProduct from "./components/NewArivalProduct";
+import NewArivalProduct from "./components/NewArrivalProduct";
 import BestSelling from "./components/BestSelling";
 import SubscribeForm from "./components/SubscribeForm";
 import ShopFeature from "./components/ShopFeature";
@@ -41,14 +41,14 @@ export default function Home() {
         {/* Category Product New Arrival */}
         <div
           id="new-arrival-product"
-          className="col-12 md:col-6 card flex justify-content-center md:justify-content-start"
+          className="col-12 md:col-6 card flex justify-content-center md:justify-content-start p-4"
         >
           <NewArivalProduct />
         </div>
         {/* Category Product Best Selling */}
         <div
           id="best-selling"
-          className="col-12 md:col-6 card flex justify-content-center md:justify-content-start"
+          className="col-12 md:col-6 card flex justify-content-center md:justify-content-start p-4"
         >
           <BestSelling />
         </div>
