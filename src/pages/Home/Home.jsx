@@ -18,46 +18,55 @@ export default function Home() {
         <Hero />
       </div>
       {/* Description */}
-      <div className="card flex justify-content-center">
+      <div id="description" className="card flex justify-content-center">
         <Description />
       </div>
       {/* Best Cofee */}
-      <div className="card flex justify-content-center">
+      <div id="best-cofee" className="card flex justify-content-center">
         <BestCofee />
       </div>
       {/* Comment*/}
-      <div className="card flex justify-content-center">
+      <div id="comment" className="card flex justify-content-center">
         <Comment />
       </div>
       {/* Product */}
-      <div className="card flex justify-content-center">
+      <div id="product" className="card flex justify-content-center">
         <Product />
       </div>
       {/* Category Product */}
-      <div className="card flex justify-content-center grid">
+      <div
+        id="category-product"
+        className="card flex justify-content-center grid"
+      >
         {/* Category Product New Arrival */}
-        <div className="col-12 md:col-6 card flex justify-content-center md:justify-content-start">
+        <div
+          id="new-arrival-product"
+          className="col-12 md:col-6 card flex justify-content-center md:justify-content-start"
+        >
           <NewArivalProduct />
         </div>
         {/* Category Product Best Selling */}
-        <div className="col-12 md:col-6 card flex justify-content-center md:justify-content-start">
+        <div
+          id="best-selling"
+          className="col-12 md:col-6 card flex justify-content-center md:justify-content-start"
+        >
           <BestSelling />
         </div>
       </div>
       {/* Subscribe Form */}
-      <div className="card flex justify-content-center">
+      <div id="subscribe-form" className="card flex justify-content-center">
         <SubscribeForm />
       </div>
       {/* Shop Feature */}
-      <div className="card flex justify-content-center">
+      <div id="shop-feature" className="card flex justify-content-center">
         <ShopFeature />
       </div>
       {/* Blog */}
-      <div className="card flex justify-content-center">
+      <div id="blog" className="card flex justify-content-center">
         <Blog />
       </div>
       {/* Instagram View */}
-      <div className="card flex justify-content-center">
+      <div id="instagram-view" className="card flex justify-content-center">
         <InstagramView />
       </div>
     </div>
