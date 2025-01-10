@@ -39,7 +39,7 @@ export default function Navbar() {
   const Menu = (
     <div className="card flex justify-content-center align-items-center gap-3">
       <InputText placeholder="Search here..." className="input-navbar-custom" />
-      <i className="pi pi-search icon-input-navbar-custom"></i>
+      <i className="pi pi-search icon-input-navbar-custom mr-2"></i>
       <i className="pi pi-heart mx-3"></i>
       <i className="pi pi-shopping-bag">
         <span className="ml-2">(0)</span>
