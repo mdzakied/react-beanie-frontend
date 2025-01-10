@@ -26,7 +26,7 @@ $tertiary-color: #3c2803;
 }
 
 .color-secondary {
-    color: $secondary-color;    
+    color: $secondary-color;
 }
 
 .color-tertiary {
@@ -50,12 +50,13 @@ body {
     }
 }
 
+// Naavbar
 .navbar-custom {
     background-color: $primary-color !important;
     border: none !important;
     max-width: 100%;
 
-    // Menu
+    // MenuW
     .p-menuitem-content {
         background-color: $primary-color;
 
@@ -89,4 +90,21 @@ body {
         font-size: small;
 
     }
+}
+
+// Subs Form
+.input-subs-custom {
+    background-color: $primary-color;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-style: italic;
+    font-size: small;
+    width: 600px;
+}
+
+.btn-subs-custom {
+    position: relative;
+    background-color: $primary-color;
+    right: 5%;
+    padding: 10px 20px;
 }
