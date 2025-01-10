@@ -2,7 +2,7 @@ import { Button } from "primereact/button";
 
 export default function Hero() {
   return (
-    <div className="w-screen grid flex justify-content-center my-4">
+    <div className="w-screen grid flex justify-content-center mb-8 mt-4">
       {/* Hero Image */}
       <div className="col p-0">
         <img src="https://plus.unsplash.com/premium_photo-1726776097289-af24f553c74d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGFwZXIlMjBiYWd8ZW58MHx8MHx8fDA%3D" alt="hero-img" className="border-round w-full h-full" />

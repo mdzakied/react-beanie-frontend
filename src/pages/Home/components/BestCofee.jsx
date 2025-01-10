@@ -42,7 +42,7 @@ export default function BestCofee() {
   });
 
   return (
-    <div className="my-4">
+    <div className="mb-8">
       {/* Best Cofee Header */}
       <div className="flex justify-content-between align-items-center">
         <h1 className="color-tertiary">SHOP BEST COFEE</h1>

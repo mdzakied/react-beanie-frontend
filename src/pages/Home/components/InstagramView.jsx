@@ -1,6 +1,6 @@
 export default function InstagramView() {
   return (
-    <div className="my-6">
+    <div className="mb-8">
       <h3 className="text-center font-primary color-tertiary">
         FOLLOW OUR INSTAGRAM #BEANIE
       </h3>

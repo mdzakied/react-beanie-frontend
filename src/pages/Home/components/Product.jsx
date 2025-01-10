@@ -1,6 +1,6 @@
 export default function Product() {
   return (
-    <div className="my-4">
+    <div className="mt-8">
       {/* Card Product 1 */}
       <div className="grid">
         {/* Card Product */}

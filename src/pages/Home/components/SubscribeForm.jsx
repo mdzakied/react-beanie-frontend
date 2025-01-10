@@ -3,7 +3,7 @@ import { Button } from "primereact/button";
 
 export default function SubscribeForm() {
   return (
-    <div className="flex flex-column justify-content-center align-items-center h-full my-4">
+    <div className="flex flex-column justify-content-center align-items-center h-full my-8">
       {/* Subscribe Title */}
       <h1 className="mb-0 color-tertiary">SUBSCRIBE US</h1>
       <p className="text-center font-secondary">

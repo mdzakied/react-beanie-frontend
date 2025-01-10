@@ -42,7 +42,7 @@ export default function Comment() {
   });
 
   return (
-    <div className="card flex justify-content-center text-center my-6">
+    <div className="card flex justify-content-center text-center my-8">
       {/* Loading View */}
       {isLoading && (
         <>
