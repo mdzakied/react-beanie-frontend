@@ -61,6 +61,7 @@ export default function Comment() {
             <Button
               icon="pi pi-chevron-left"
               aria-label="Filter"
+              size="small"
               className="bg-gray-200 hover:bg-gray-900 hover:text-white border-none btn-comm-custom my-auto border-circle"
               style={{ color: "black" }}
               onClick={() =>
