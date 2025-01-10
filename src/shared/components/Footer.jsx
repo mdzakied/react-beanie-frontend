@@ -155,7 +155,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="border-top-1">
+      <div className="border-top-1 mt-4">
         <p className="text-center text-sm mb-0">
           &copy; 2023 Beanie. Designed by{" "}
           <span>
