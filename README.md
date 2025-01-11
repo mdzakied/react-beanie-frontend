@@ -44,7 +44,13 @@ git clone https://github.com/mdzakied/react-beanie-frontend.git
 [laravel-beanie-backend](https://github.com/mdzakied/laravel-beanie-backend)
 
 <br />
-<p>3. Run Project for Development</p>
+<p>3.Adjust Url Backendinf file .env </p>
+```
+VITE_API_URL=http://127.0.0.1:8000/api
+```
+
+<br />
+<p>4. Run Project for Development</p>
 
 * npm install
   
