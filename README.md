@@ -39,12 +39,12 @@ git clone https://github.com/mdzakied/react-beanie-frontend.git
 ```
 
 <br />
-<p>2. Prepare backend </p>
+<p>2. Prepare backend</p>
 
 [laravel-beanie-backend](https://github.com/mdzakied/laravel-beanie-backend)
 
 <br />
-<p>3.Adjust Url Backendinf file .env </p>
+<p>3.Adjust Url Backend in file .env</p>
 
 ```
 VITE_API_URL=http://127.0.0.1:8000/api
